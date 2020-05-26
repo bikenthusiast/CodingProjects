@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/parallels/projects/catkin_ws/devel/.private/catkin_tools_prebuild/setup.sh

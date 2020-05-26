@@ -1,0 +1,15 @@
+version: '2'
+services:
+  astra:
+    build: './astra_docker'
+    container_name: astra
+    devices:
+      - "/dev/bus/usb/001/007"
+    network_mode: "host"
+    command: roslaunch astra_launch astra.launch --wait
+
+  cob_people_object_detection:
+    build: './cob_people_object_detection'
+    container_name: cob_people_object_detection
+    network_mode: "host"
+    command: /bin/bash -c 'source /root/catkin_ws/devel/setup.bash && roslaunch cob_people_object_detection_tensorflow alltogether.launch --wait'

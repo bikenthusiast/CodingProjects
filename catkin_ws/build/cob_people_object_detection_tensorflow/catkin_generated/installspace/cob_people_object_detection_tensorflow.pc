@@ -1,0 +1,8 @@
+prefix=/home/parallels/projects/catkin_ws/install
+
+Name: cob_people_object_detection_tensorflow
+Description: Description of cob_people_object_detection_tensorflow
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
