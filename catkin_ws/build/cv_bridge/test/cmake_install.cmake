@@ -1,8 +1,8 @@
-# Install script for directory: /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/cv_bridge/test
+# Install script for directory: /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/cv_bridge/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/parallels/projects/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/parallels/temporary/CodingProjects2/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

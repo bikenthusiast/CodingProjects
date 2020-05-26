@@ -1,1 +1,1 @@
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/__init__.py
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/__init__.py

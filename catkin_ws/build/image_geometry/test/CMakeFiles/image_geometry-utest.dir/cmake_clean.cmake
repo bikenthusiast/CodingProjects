@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/image_geometry-utest.dir/utest.cpp.o"
-  "/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/image_geometry/image_geometry-utest.pdb"
-  "/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/image_geometry/image_geometry-utest"
+  "/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/image_geometry/image_geometry-utest.pdb"
+  "/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/image_geometry/image_geometry-utest"
 )
 
 # Per-language clean rules from dependency scanning.

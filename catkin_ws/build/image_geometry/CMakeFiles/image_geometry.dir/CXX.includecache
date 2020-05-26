@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry/include/image_geometry/exports.h
+/home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry/include/image_geometry/exports.h
 ros/macros.h
 -
 
-/home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry/include/image_geometry/pinhole_camera_model.h
+/home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry/include/image_geometry/pinhole_camera_model.h
 sensor_msgs/CameraInfo.h
 -
 opencv2/core/core.hpp
@@ -24,25 +24,25 @@ stdexcept
 string
 -
 exports.h
-/home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry/include/image_geometry/exports.h
+/home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry/include/image_geometry/exports.h
 
-/home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry/include/image_geometry/stereo_camera_model.h
+/home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry/include/image_geometry/stereo_camera_model.h
 image_geometry/pinhole_camera_model.h
-/home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry/include/image_geometry/image_geometry/pinhole_camera_model.h
+/home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry/include/image_geometry/image_geometry/pinhole_camera_model.h
 exports.h
-/home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry/include/image_geometry/exports.h
+/home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry/include/image_geometry/exports.h
 
-/home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry/src/pinhole_camera_model.cpp
+/home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry/src/pinhole_camera_model.cpp
 image_geometry/pinhole_camera_model.h
-/home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry/src/image_geometry/pinhole_camera_model.h
+/home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry/src/image_geometry/pinhole_camera_model.h
 sensor_msgs/distortion_models.h
 -
 boost/make_shared.hpp
 -
 
-/home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry/src/stereo_camera_model.cpp
+/home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry/src/stereo_camera_model.cpp
 image_geometry/stereo_camera_model.h
-/home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry/src/image_geometry/stereo_camera_model.h
+/home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry/src/image_geometry/stereo_camera_model.h
 
 /opt/ros/melodic/include/ros/builtin_message_traits.h
 message_traits.h

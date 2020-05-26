@@ -1,6 +1,6 @@
-devel_space: /home/parallels/projects/catkin_ws/devel
+devel_space: /home/parallels/temporary/CodingProjects2/catkin_ws/devel
 install: false
-install_space: /home/parallels/projects/catkin_ws/install
+install_space: /home/parallels/temporary/CodingProjects2/catkin_ws/install
 profile: default
-source_space: /home/parallels/projects/catkin_ws/src
-workspace: /home/parallels/projects/catkin_ws
+source_space: /home/parallels/temporary/CodingProjects2/catkin_ws/src
+workspace: /home/parallels/temporary/CodingProjects2/catkin_ws

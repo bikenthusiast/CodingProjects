@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parallels/projects/catkin_ws/src/third_party/usb_cam
+CMAKE_SOURCE_DIR = /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/usb_cam
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parallels/projects/catkin_ws/build/usb_cam
+CMAKE_BINARY_DIR = /home/parallels/temporary/CodingProjects2/catkin_ws/build/usb_cam
 
 # Utility rule file for rosgraph_msgs_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend:
-	cd /home/parallels/projects/catkin_ws/build/usb_cam && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/projects/catkin_ws/src/third_party/usb_cam /home/parallels/projects/catkin_ws/src/third_party/usb_cam /home/parallels/projects/catkin_ws/build/usb_cam /home/parallels/projects/catkin_ws/build/usb_cam /home/parallels/projects/catkin_ws/build/usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/parallels/temporary/CodingProjects2/catkin_ws/build/usb_cam && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/usb_cam /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/usb_cam /home/parallels/temporary/CodingProjects2/catkin_ws/build/usb_cam /home/parallels/temporary/CodingProjects2/catkin_ws/build/usb_cam /home/parallels/temporary/CodingProjects2/catkin_ws/build/usb_cam/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parallels/projects/catkin_ws/src/third_party/ros_people_object_detection_tensorflow
+CMAKE_SOURCE_DIR = /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/ros_people_object_detection_tensorflow
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parallels/projects/catkin_ws/build/cob_people_object_detection_tensorflow
+CMAKE_BINARY_DIR = /home/parallels/temporary/CodingProjects2/catkin_ws/build/cob_people_object_detection_tensorflow
 
 # Utility rule file for run_tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/parallels/projects/catkin_ws/build/cob_people_object_detection_tensorflow && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/projects/catkin_ws/src/third_party/ros_people_object_detection_tensorflow /home/parallels/projects/catkin_ws/src/third_party/ros_people_object_detection_tensorflow /home/parallels/projects/catkin_ws/build/cob_people_object_detection_tensorflow /home/parallels/projects/catkin_ws/build/cob_people_object_detection_tensorflow /home/parallels/projects/catkin_ws/build/cob_people_object_detection_tensorflow/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/parallels/temporary/CodingProjects2/catkin_ws/build/cob_people_object_detection_tensorflow && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/ros_people_object_detection_tensorflow /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/ros_people_object_detection_tensorflow /home/parallels/temporary/CodingProjects2/catkin_ws/build/cob_people_object_detection_tensorflow /home/parallels/temporary/CodingProjects2/catkin_ws/build/cob_people_object_detection_tensorflow /home/parallels/temporary/CodingProjects2/catkin_ws/build/cob_people_object_detection_tensorflow/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 

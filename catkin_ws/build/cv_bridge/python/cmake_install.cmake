@@ -1,8 +1,8 @@
-# Install script for directory: /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/cv_bridge/python
+# Install script for directory: /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/cv_bridge/python
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/parallels/projects/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/parallels/temporary/CodingProjects2/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/cv_bridge/boost" TYPE FILE FILES "/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/cv_bridge/boost" TYPE FILE FILES "/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/__init__.py")
 endif()
 

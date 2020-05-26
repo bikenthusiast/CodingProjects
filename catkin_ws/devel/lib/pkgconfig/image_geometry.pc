@@ -1,1 +1,1 @@
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/pkgconfig/image_geometry.pc
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/pkgconfig/image_geometry.pc

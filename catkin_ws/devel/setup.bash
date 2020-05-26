@@ -1,1 +1,1 @@
-/home/parallels/projects/catkin_ws/devel/.private/catkin_tools_prebuild/setup.bash
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/catkin_tools_prebuild/setup.bash

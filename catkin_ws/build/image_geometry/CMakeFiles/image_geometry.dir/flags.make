@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DROS_BUILD_SHARED_LIBS=1 -Dimage_geometry_EXPORTS
 
-CXX_INCLUDES = -I/home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry/include -I/opt/ros/melodic/include -isystem /usr/include/opencv 
+CXX_INCLUDES = -I/home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry/include -I/opt/ros/melodic/include -isystem /usr/include/opencv 
 

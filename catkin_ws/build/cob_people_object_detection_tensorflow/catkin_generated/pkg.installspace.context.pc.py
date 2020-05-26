@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "cob_people_object_detection_tensorflow"
-PROJECT_SPACE_DIR = "/home/parallels/projects/catkin_ws/install"
+PROJECT_SPACE_DIR = "/home/parallels/temporary/CodingProjects2/catkin_ws/install"
 PROJECT_VERSION = "0.0.0"

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/parallels/projects/catkin_ws/src/third_party/usb_cam/include/usb_cam/usb_cam.h
+/home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/usb_cam/include/usb_cam/usb_cam.h
 asm/types.h
 -
 linux/videodev2.h
@@ -26,7 +26,7 @@ sstream
 sensor_msgs/Image.h
 -
 
-/home/parallels/projects/catkin_ws/src/third_party/usb_cam/src/usb_cam.cpp
+/home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/usb_cam/src/usb_cam.cpp
 stdio.h
 -
 stdlib.h

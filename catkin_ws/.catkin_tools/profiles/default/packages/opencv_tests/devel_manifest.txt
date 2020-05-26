@@ -1,5 +1,0 @@
-third_party/vision_opencv/opencv_tests
-/home/parallels/projects/catkin_ws/devel/.private/opencv_tests/cmake.lock /home/parallels/projects/catkin_ws/devel/./cmake.lock
-/home/parallels/projects/catkin_ws/devel/.private/opencv_tests/share/opencv_tests/cmake/opencv_testsConfig-version.cmake /home/parallels/projects/catkin_ws/devel/share/opencv_tests/cmake/opencv_testsConfig-version.cmake
-/home/parallels/projects/catkin_ws/devel/.private/opencv_tests/share/opencv_tests/cmake/opencv_testsConfig.cmake /home/parallels/projects/catkin_ws/devel/share/opencv_tests/cmake/opencv_testsConfig.cmake
-/home/parallels/projects/catkin_ws/devel/.private/opencv_tests/lib/pkgconfig/opencv_tests.pc /home/parallels/projects/catkin_ws/devel/lib/pkgconfig/opencv_tests.pc

@@ -3,7 +3,7 @@
 
 # since this file is sourced either use the provided _CATKIN_SETUP_DIR
 # or fall back to the destination set at configure time
-: ${_CATKIN_SETUP_DIR:=/home/parallels/projects/catkin_ws/devel/.private/cv_bridge}
+: ${_CATKIN_SETUP_DIR:=/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge}
 CATKIN_SETUP_UTIL_ARGS="--extend --local"
 . "$_CATKIN_SETUP_DIR/setup.sh"
 unset CATKIN_SETUP_UTIL_ARGS

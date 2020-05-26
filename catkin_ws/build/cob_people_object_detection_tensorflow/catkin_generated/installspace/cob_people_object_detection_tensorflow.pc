@@ -1,4 +1,4 @@
-prefix=/home/parallels/projects/catkin_ws/install
+prefix=/home/parallels/temporary/CodingProjects2/catkin_ws/install
 
 Name: cob_people_object_detection_tensorflow
 Description: Description of cob_people_object_detection_tensorflow

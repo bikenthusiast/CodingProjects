@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/cv_bridge
+CMAKE_SOURCE_DIR = /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/cv_bridge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parallels/projects/catkin_ws/build/cv_bridge
+CMAKE_BINARY_DIR = /home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge
 
 # Utility rule file for _run_tests_cv_bridge_nosetests_python_bindings.py.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/parallels/projects/catkin_ws/build/cv_bridge
 include test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/progress.make
 
 test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py:
-	cd /home/parallels/projects/catkin_ws/build/cv_bridge/test && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/parallels/projects/catkin_ws/build/cv_bridge/test_results/cv_bridge/nosetests-python_bindings.py.xml "\"/usr/bin/cmake\" -E make_directory /home/parallels/projects/catkin_ws/build/cv_bridge/test_results/cv_bridge" "/usr/bin/nosetests-2.7 -P --process-timeout=60 /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/cv_bridge/test/python_bindings.py --with-xunit --xunit-file=/home/parallels/projects/catkin_ws/build/cv_bridge/test_results/cv_bridge/nosetests-python_bindings.py.xml"
+	cd /home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge/test && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge/test_results/cv_bridge/nosetests-python_bindings.py.xml "\"/usr/bin/cmake\" -E make_directory /home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge/test_results/cv_bridge" "/usr/bin/nosetests-2.7 -P --process-timeout=60 /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/cv_bridge/test/python_bindings.py --with-xunit --xunit-file=/home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge/test_results/cv_bridge/nosetests-python_bindings.py.xml"
 
 _run_tests_cv_bridge_nosetests_python_bindings.py: test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py
 _run_tests_cv_bridge_nosetests_python_bindings.py: test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/build.make
@@ -67,10 +67,10 @@ test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/build: _ru
 .PHONY : test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/build
 
 test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/clean:
-	cd /home/parallels/projects/catkin_ws/build/cv_bridge/test && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/cmake_clean.cmake
+	cd /home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge/test && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/clean
 
 test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/depend:
-	cd /home/parallels/projects/catkin_ws/build/cv_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/cv_bridge /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/cv_bridge/test /home/parallels/projects/catkin_ws/build/cv_bridge /home/parallels/projects/catkin_ws/build/cv_bridge/test /home/parallels/projects/catkin_ws/build/cv_bridge/test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/cv_bridge /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/cv_bridge/test /home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge /home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge/test /home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge/test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/depend
 

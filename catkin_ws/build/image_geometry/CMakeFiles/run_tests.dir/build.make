@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry
+CMAKE_SOURCE_DIR = /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parallels/projects/catkin_ws/build/image_geometry
+CMAKE_BINARY_DIR = /home/parallels/temporary/CodingProjects2/catkin_ws/build/image_geometry
 
 # Utility rule file for run_tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/parallels/projects/catkin_ws/build/image_geometry && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry /home/parallels/projects/catkin_ws/build/image_geometry /home/parallels/projects/catkin_ws/build/image_geometry /home/parallels/projects/catkin_ws/build/image_geometry/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/parallels/temporary/CodingProjects2/catkin_ws/build/image_geometry && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry /home/parallels/temporary/CodingProjects2/catkin_ws/build/image_geometry /home/parallels/temporary/CodingProjects2/catkin_ws/build/image_geometry /home/parallels/temporary/CodingProjects2/catkin_ws/build/image_geometry/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 

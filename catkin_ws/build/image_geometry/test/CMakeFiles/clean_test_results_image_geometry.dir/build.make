@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry
+CMAKE_SOURCE_DIR = /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parallels/projects/catkin_ws/build/image_geometry
+CMAKE_BINARY_DIR = /home/parallels/temporary/CodingProjects2/catkin_ws/build/image_geometry
 
 # Utility rule file for clean_test_results_image_geometry.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/parallels/projects/catkin_ws/build/image_geometry
 include test/CMakeFiles/clean_test_results_image_geometry.dir/progress.make
 
 test/CMakeFiles/clean_test_results_image_geometry:
-	cd /home/parallels/projects/catkin_ws/build/image_geometry/test && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/parallels/projects/catkin_ws/build/image_geometry/test_results/image_geometry
+	cd /home/parallels/temporary/CodingProjects2/catkin_ws/build/image_geometry/test && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/parallels/temporary/CodingProjects2/catkin_ws/build/image_geometry/test_results/image_geometry
 
 clean_test_results_image_geometry: test/CMakeFiles/clean_test_results_image_geometry
 clean_test_results_image_geometry: test/CMakeFiles/clean_test_results_image_geometry.dir/build.make
@@ -67,10 +67,10 @@ test/CMakeFiles/clean_test_results_image_geometry.dir/build: clean_test_results_
 .PHONY : test/CMakeFiles/clean_test_results_image_geometry.dir/build
 
 test/CMakeFiles/clean_test_results_image_geometry.dir/clean:
-	cd /home/parallels/projects/catkin_ws/build/image_geometry/test && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_image_geometry.dir/cmake_clean.cmake
+	cd /home/parallels/temporary/CodingProjects2/catkin_ws/build/image_geometry/test && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_image_geometry.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/clean_test_results_image_geometry.dir/clean
 
 test/CMakeFiles/clean_test_results_image_geometry.dir/depend:
-	cd /home/parallels/projects/catkin_ws/build/image_geometry && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry/test /home/parallels/projects/catkin_ws/build/image_geometry /home/parallels/projects/catkin_ws/build/image_geometry/test /home/parallels/projects/catkin_ws/build/image_geometry/test/CMakeFiles/clean_test_results_image_geometry.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/parallels/temporary/CodingProjects2/catkin_ws/build/image_geometry && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry/test /home/parallels/temporary/CodingProjects2/catkin_ws/build/image_geometry /home/parallels/temporary/CodingProjects2/catkin_ws/build/image_geometry/test /home/parallels/temporary/CodingProjects2/catkin_ws/build/image_geometry/test/CMakeFiles/clean_test_results_image_geometry.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/clean_test_results_image_geometry.dir/depend
 

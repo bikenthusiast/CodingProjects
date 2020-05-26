@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"cv_bridge\"
 
-CXX_INCLUDES = -I/home/parallels/projects/catkin_ws/src/third_party/vision_opencv/cv_bridge/include -isystem /usr/include/opencv -I/opt/ros/melodic/include -I/home/parallels/projects/catkin_ws/src/third_party/vision_opencv/cv_bridge/test/../src -I/usr/src/googletest/googletest/include 
+CXX_INCLUDES = -I/home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/cv_bridge/include -isystem /usr/include/opencv -I/opt/ros/melodic/include -I/home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/cv_bridge/test/../src -I/usr/src/googletest/googletest/include 
 

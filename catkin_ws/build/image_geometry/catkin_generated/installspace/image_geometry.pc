@@ -1,4 +1,4 @@
-prefix=/home/parallels/projects/catkin_ws/install
+prefix=/home/parallels/temporary/CodingProjects2/catkin_ws/install
 
 Name: image_geometry
 Description: Description of image_geometry

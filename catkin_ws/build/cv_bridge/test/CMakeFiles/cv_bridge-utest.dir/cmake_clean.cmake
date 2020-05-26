@@ -4,8 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/cv_bridge-utest.dir/utest.cpp.o"
   "CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o"
   "CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o"
-  "/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest.pdb"
-  "/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest"
+  "/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest.pdb"
+  "/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/cv_bridge/cv_bridge-utest"
 )
 
 # Per-language clean rules from dependency scanning.

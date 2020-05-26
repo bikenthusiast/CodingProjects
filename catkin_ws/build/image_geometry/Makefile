@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry
+CMAKE_SOURCE_DIR = /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parallels/projects/catkin_ws/build/image_geometry
+CMAKE_BINARY_DIR = /home/parallels/temporary/CodingProjects2/catkin_ws/build/image_geometry
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/projects/catkin_ws/build/image_geometry/CMakeFiles /home/parallels/projects/catkin_ws/build/image_geometry/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/temporary/CodingProjects2/catkin_ws/build/image_geometry/CMakeFiles /home/parallels/temporary/CodingProjects2/catkin_ws/build/image_geometry/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/projects/catkin_ws/build/image_geometry/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/temporary/CodingProjects2/catkin_ws/build/image_geometry/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

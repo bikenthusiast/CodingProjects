@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/cv_bridge
+CMAKE_SOURCE_DIR = /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/cv_bridge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parallels/projects/catkin_ws/build/cv_bridge
+CMAKE_BINARY_DIR = /home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge
 
 # Utility rule file for run_tests_cv_bridge_gtest.
 
@@ -63,10 +63,10 @@ test/CMakeFiles/run_tests_cv_bridge_gtest.dir/build: run_tests_cv_bridge_gtest
 .PHONY : test/CMakeFiles/run_tests_cv_bridge_gtest.dir/build
 
 test/CMakeFiles/run_tests_cv_bridge_gtest.dir/clean:
-	cd /home/parallels/projects/catkin_ws/build/cv_bridge/test && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_cv_bridge_gtest.dir/cmake_clean.cmake
+	cd /home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge/test && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_cv_bridge_gtest.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/run_tests_cv_bridge_gtest.dir/clean
 
 test/CMakeFiles/run_tests_cv_bridge_gtest.dir/depend:
-	cd /home/parallels/projects/catkin_ws/build/cv_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/cv_bridge /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/cv_bridge/test /home/parallels/projects/catkin_ws/build/cv_bridge /home/parallels/projects/catkin_ws/build/cv_bridge/test /home/parallels/projects/catkin_ws/build/cv_bridge/test/CMakeFiles/run_tests_cv_bridge_gtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/cv_bridge /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/cv_bridge/test /home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge /home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge/test /home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge/test/CMakeFiles/run_tests_cv_bridge_gtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/run_tests_cv_bridge_gtest.dir/depend
 

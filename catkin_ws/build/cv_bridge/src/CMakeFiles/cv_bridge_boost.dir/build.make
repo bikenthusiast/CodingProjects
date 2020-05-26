@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/cv_bridge
+CMAKE_SOURCE_DIR = /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/cv_bridge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parallels/projects/catkin_ws/build/cv_bridge
+CMAKE_BINARY_DIR = /home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/cv_bridge_boost.dir/depend.make
@@ -58,17 +58,17 @@ include src/CMakeFiles/cv_bridge_boost.dir/progress.make
 include src/CMakeFiles/cv_bridge_boost.dir/flags.make
 
 src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o: src/CMakeFiles/cv_bridge_boost.dir/flags.make
-src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o: /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/cv_bridge/src/module.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/projects/catkin_ws/build/cv_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o"
-	cd /home/parallels/projects/catkin_ws/build/cv_bridge/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cv_bridge_boost.dir/module.cpp.o -c /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/cv_bridge/src/module.cpp
+src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o: /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/cv_bridge/src/module.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o"
+	cd /home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cv_bridge_boost.dir/module.cpp.o -c /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/cv_bridge/src/module.cpp
 
 src/CMakeFiles/cv_bridge_boost.dir/module.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cv_bridge_boost.dir/module.cpp.i"
-	cd /home/parallels/projects/catkin_ws/build/cv_bridge/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/cv_bridge/src/module.cpp > CMakeFiles/cv_bridge_boost.dir/module.cpp.i
+	cd /home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/cv_bridge/src/module.cpp > CMakeFiles/cv_bridge_boost.dir/module.cpp.i
 
 src/CMakeFiles/cv_bridge_boost.dir/module.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cv_bridge_boost.dir/module.cpp.s"
-	cd /home/parallels/projects/catkin_ws/build/cv_bridge/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/cv_bridge/src/module.cpp -o CMakeFiles/cv_bridge_boost.dir/module.cpp.s
+	cd /home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/cv_bridge/src/module.cpp -o CMakeFiles/cv_bridge_boost.dir/module.cpp.s
 
 src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o.requires:
 
@@ -82,17 +82,17 @@ src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o.provides.build: src/CMakeFiles/c
 
 
 src/CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.o: src/CMakeFiles/cv_bridge_boost.dir/flags.make
-src/CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.o: /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/cv_bridge/src/module_opencv3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/projects/catkin_ws/build/cv_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.o"
-	cd /home/parallels/projects/catkin_ws/build/cv_bridge/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.o -c /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/cv_bridge/src/module_opencv3.cpp
+src/CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.o: /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/cv_bridge/src/module_opencv3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.o"
+	cd /home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.o -c /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/cv_bridge/src/module_opencv3.cpp
 
 src/CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.i"
-	cd /home/parallels/projects/catkin_ws/build/cv_bridge/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/cv_bridge/src/module_opencv3.cpp > CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.i
+	cd /home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/cv_bridge/src/module_opencv3.cpp > CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.i
 
 src/CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.s"
-	cd /home/parallels/projects/catkin_ws/build/cv_bridge/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/cv_bridge/src/module_opencv3.cpp -o CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.s
+	cd /home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/cv_bridge/src/module_opencv3.cpp -o CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.s
 
 src/CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.o.requires:
 
@@ -113,51 +113,51 @@ cv_bridge_boost_OBJECTS = \
 # External object files for target cv_bridge_boost
 cv_bridge_boost_EXTERNAL_OBJECTS =
 
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: src/CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.o
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: src/CMakeFiles/cv_bridge_boost.dir/build.make
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libboost_python.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /opt/ros/melodic/lib/librosconsole.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /opt/ros/melodic/lib/librostime.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /opt/ros/melodic/lib/libcpp_common.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/libcv_bridge.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /opt/ros/melodic/lib/librosconsole.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /opt/ros/melodic/lib/librostime.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /opt/ros/melodic/lib/libcpp_common.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: src/CMakeFiles/cv_bridge_boost.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parallels/projects/catkin_ws/build/cv_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so"
-	cd /home/parallels/projects/catkin_ws/build/cv_bridge/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cv_bridge_boost.dir/link.txt --verbose=$(VERBOSE)
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: src/CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.o
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: src/CMakeFiles/cv_bridge_boost.dir/build.make
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libboost_python.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /opt/ros/melodic/lib/librosconsole.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /opt/ros/melodic/lib/librostime.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /opt/ros/melodic/lib/libcpp_common.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/libcv_bridge.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /opt/ros/melodic/lib/librosconsole.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /opt/ros/melodic/lib/librostime.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /opt/ros/melodic/lib/libcpp_common.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so: src/CMakeFiles/cv_bridge_boost.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so"
+	cd /home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cv_bridge_boost.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/CMakeFiles/cv_bridge_boost.dir/build: /home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so
+src/CMakeFiles/cv_bridge_boost.dir/build: /home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so
 
 .PHONY : src/CMakeFiles/cv_bridge_boost.dir/build
 
@@ -167,10 +167,10 @@ src/CMakeFiles/cv_bridge_boost.dir/requires: src/CMakeFiles/cv_bridge_boost.dir/
 .PHONY : src/CMakeFiles/cv_bridge_boost.dir/requires
 
 src/CMakeFiles/cv_bridge_boost.dir/clean:
-	cd /home/parallels/projects/catkin_ws/build/cv_bridge/src && $(CMAKE_COMMAND) -P CMakeFiles/cv_bridge_boost.dir/cmake_clean.cmake
+	cd /home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge/src && $(CMAKE_COMMAND) -P CMakeFiles/cv_bridge_boost.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/cv_bridge_boost.dir/clean
 
 src/CMakeFiles/cv_bridge_boost.dir/depend:
-	cd /home/parallels/projects/catkin_ws/build/cv_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/cv_bridge /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/cv_bridge/src /home/parallels/projects/catkin_ws/build/cv_bridge /home/parallels/projects/catkin_ws/build/cv_bridge/src /home/parallels/projects/catkin_ws/build/cv_bridge/src/CMakeFiles/cv_bridge_boost.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/cv_bridge /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/cv_bridge/src /home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge /home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge/src /home/parallels/temporary/CodingProjects2/catkin_ws/build/cv_bridge/src/CMakeFiles/cv_bridge_boost.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/cv_bridge_boost.dir/depend
 

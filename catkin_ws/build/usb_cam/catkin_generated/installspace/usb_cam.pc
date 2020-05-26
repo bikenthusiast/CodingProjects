@@ -1,4 +1,4 @@
-prefix=/home/parallels/projects/catkin_ws/install
+prefix=/home/parallels/temporary/CodingProjects2/catkin_ws/install
 
 Name: usb_cam
 Description: Description of usb_cam

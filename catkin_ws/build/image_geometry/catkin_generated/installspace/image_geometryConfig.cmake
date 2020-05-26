@@ -67,14 +67,14 @@ set(image_geometry_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(image_geometry_SOURCE_PREFIX /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry)
-  set(image_geometry_DEVEL_PREFIX /home/parallels/projects/catkin_ws/devel/.private/image_geometry)
+  set(image_geometry_SOURCE_PREFIX /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry)
+  set(image_geometry_DEVEL_PREFIX /home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry)
   set(image_geometry_INSTALL_PREFIX "")
   set(image_geometry_PREFIX ${image_geometry_DEVEL_PREFIX})
 else()
   set(image_geometry_SOURCE_PREFIX "")
   set(image_geometry_DEVEL_PREFIX "")
-  set(image_geometry_INSTALL_PREFIX /home/parallels/projects/catkin_ws/install)
+  set(image_geometry_INSTALL_PREFIX /home/parallels/temporary/CodingProjects2/catkin_ws/install)
   set(image_geometry_PREFIX ${image_geometry_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/parallels/projects/catkin_ws/install/lib;/home/parallels/projects/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/parallels/temporary/CodingProjects2/catkin_ws/install/lib;/home/parallels/temporary/CodingProjects2/catkin_ws/devel/lib;/home/parallels/projects/catkin_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

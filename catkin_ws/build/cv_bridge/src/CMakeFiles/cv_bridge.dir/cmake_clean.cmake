@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cv_bridge.dir/cv_bridge.cpp.o"
   "CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o"
-  "/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/libcv_bridge.pdb"
-  "/home/parallels/projects/catkin_ws/devel/.private/cv_bridge/lib/libcv_bridge.so"
+  "/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/libcv_bridge.pdb"
+  "/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/libcv_bridge.so"
 )
 
 # Per-language clean rules from dependency scanning.

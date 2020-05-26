@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/parallels/projects/catkin_ws/devel/.private/usb_cam:$CMAKE_PREFIX_PATH"
-export PWD="/home/parallels/projects/catkin_ws/build/usb_cam"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/parallels/projects/catkin_ws/devel/.private/usb_cam/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/parallels/projects/catkin_ws/src/third_party/usb_cam:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/usb_cam:$CMAKE_PREFIX_PATH"
+export PWD="/home/parallels/temporary/CodingProjects2/catkin_ws/build/usb_cam"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/usb_cam/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/usb_cam:$ROS_PACKAGE_PATH"

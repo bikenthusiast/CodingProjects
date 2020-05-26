@@ -67,14 +67,14 @@ set(cob_people_object_detection_tensorflow_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(cob_people_object_detection_tensorflow_SOURCE_PREFIX /home/parallels/projects/catkin_ws/src/third_party/ros_people_object_detection_tensorflow)
-  set(cob_people_object_detection_tensorflow_DEVEL_PREFIX /home/parallels/projects/catkin_ws/devel/.private/cob_people_object_detection_tensorflow)
+  set(cob_people_object_detection_tensorflow_SOURCE_PREFIX /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/ros_people_object_detection_tensorflow)
+  set(cob_people_object_detection_tensorflow_DEVEL_PREFIX /home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cob_people_object_detection_tensorflow)
   set(cob_people_object_detection_tensorflow_INSTALL_PREFIX "")
   set(cob_people_object_detection_tensorflow_PREFIX ${cob_people_object_detection_tensorflow_DEVEL_PREFIX})
 else()
   set(cob_people_object_detection_tensorflow_SOURCE_PREFIX "")
   set(cob_people_object_detection_tensorflow_DEVEL_PREFIX "")
-  set(cob_people_object_detection_tensorflow_INSTALL_PREFIX /home/parallels/projects/catkin_ws/install)
+  set(cob_people_object_detection_tensorflow_INSTALL_PREFIX /home/parallels/temporary/CodingProjects2/catkin_ws/install)
   set(cob_people_object_detection_tensorflow_PREFIX ${cob_people_object_detection_tensorflow_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/parallels/projects/catkin_ws/install/lib;/home/parallels/projects/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/parallels/temporary/CodingProjects2/catkin_ws/install/lib;/home/parallels/temporary/CodingProjects2/catkin_ws/devel/lib;/home/parallels/projects/catkin_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -1,4 +1,4 @@
-prefix=/home/parallels/projects/catkin_ws/install
+prefix=/home/parallels/temporary/CodingProjects2/catkin_ws/install
 
 Name: opencv_tests
 Description: Description of opencv_tests

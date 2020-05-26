@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry
+CMAKE_SOURCE_DIR = /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parallels/projects/catkin_ws/build/image_geometry
+CMAKE_BINARY_DIR = /home/parallels/temporary/CodingProjects2/catkin_ws/build/image_geometry
 
 # Include any dependencies generated for this target.
 include CMakeFiles/image_geometry.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/image_geometry.dir/progress.make
 include CMakeFiles/image_geometry.dir/flags.make
 
 CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.o: CMakeFiles/image_geometry.dir/flags.make
-CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.o: /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry/src/pinhole_camera_model.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/projects/catkin_ws/build/image_geometry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.o -c /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry/src/pinhole_camera_model.cpp
+CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.o: /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry/src/pinhole_camera_model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/temporary/CodingProjects2/catkin_ws/build/image_geometry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.o -c /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry/src/pinhole_camera_model.cpp
 
 CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry/src/pinhole_camera_model.cpp > CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry/src/pinhole_camera_model.cpp > CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.i
 
 CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry/src/pinhole_camera_model.cpp -o CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry/src/pinhole_camera_model.cpp -o CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.s
 
 CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.o.provides.build: CMa
 
 
 CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.o: CMakeFiles/image_geometry.dir/flags.make
-CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.o: /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry/src/stereo_camera_model.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/projects/catkin_ws/build/image_geometry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.o -c /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry/src/stereo_camera_model.cpp
+CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.o: /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry/src/stereo_camera_model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/temporary/CodingProjects2/catkin_ws/build/image_geometry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.o -c /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry/src/stereo_camera_model.cpp
 
 CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry/src/stereo_camera_model.cpp > CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry/src/stereo_camera_model.cpp > CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.i
 
 CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry/src/stereo_camera_model.cpp -o CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry/src/stereo_camera_model.cpp -o CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.s
 
 CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.o.requires:
 
@@ -113,56 +113,56 @@ image_geometry_OBJECTS = \
 # External object files for target image_geometry
 image_geometry_EXTERNAL_OBJECTS =
 
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.o
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.o
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: CMakeFiles/image_geometry.dir/build.make
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_face.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_text.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
-/home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: CMakeFiles/image_geometry.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parallels/projects/catkin_ws/build/image_geometry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so"
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.o
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.o
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: CMakeFiles/image_geometry.dir/build.make
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_face.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_text.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
+/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so: CMakeFiles/image_geometry.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parallels/temporary/CodingProjects2/catkin_ws/build/image_geometry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/image_geometry.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/image_geometry.dir/build: /home/parallels/projects/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so
+CMakeFiles/image_geometry.dir/build: /home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/image_geometry/lib/libimage_geometry.so
 
 .PHONY : CMakeFiles/image_geometry.dir/build
 
@@ -176,6 +176,6 @@ CMakeFiles/image_geometry.dir/clean:
 .PHONY : CMakeFiles/image_geometry.dir/clean
 
 CMakeFiles/image_geometry.dir/depend:
-	cd /home/parallels/projects/catkin_ws/build/image_geometry && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/image_geometry /home/parallels/projects/catkin_ws/build/image_geometry /home/parallels/projects/catkin_ws/build/image_geometry /home/parallels/projects/catkin_ws/build/image_geometry/CMakeFiles/image_geometry.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/parallels/temporary/CodingProjects2/catkin_ws/build/image_geometry && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/image_geometry /home/parallels/temporary/CodingProjects2/catkin_ws/build/image_geometry /home/parallels/temporary/CodingProjects2/catkin_ws/build/image_geometry /home/parallels/temporary/CodingProjects2/catkin_ws/build/image_geometry/CMakeFiles/image_geometry.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/image_geometry.dir/depend
 

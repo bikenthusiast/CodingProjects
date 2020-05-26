@@ -1,5 +1,5 @@
-Symlinking /home/parallels/projects/catkin_ws/devel/share/image_geometry/cmake/image_geometryConfig-version.cmake
-Symlinking /home/parallels/projects/catkin_ws/devel/share/image_geometry/cmake/image_geometryConfig.cmake
-Symlinking /home/parallels/projects/catkin_ws/devel/lib/libimage_geometry.so
-Symlinking /home/parallels/projects/catkin_ws/devel/lib/pkgconfig/image_geometry.pc
-Symlinking /home/parallels/projects/catkin_ws/devel/lib/python2.7/dist-packages/image_geometry/__init__.py
+Symlinking /home/parallels/temporary/CodingProjects2/catkin_ws/devel/share/image_geometry/cmake/image_geometryConfig-version.cmake
+Symlinking /home/parallels/temporary/CodingProjects2/catkin_ws/devel/share/image_geometry/cmake/image_geometryConfig.cmake
+Symlinking /home/parallels/temporary/CodingProjects2/catkin_ws/devel/lib/libimage_geometry.so
+Symlinking /home/parallels/temporary/CodingProjects2/catkin_ws/devel/lib/pkgconfig/image_geometry.pc
+Symlinking /home/parallels/temporary/CodingProjects2/catkin_ws/devel/lib/python2.7/dist-packages/image_geometry/__init__.py

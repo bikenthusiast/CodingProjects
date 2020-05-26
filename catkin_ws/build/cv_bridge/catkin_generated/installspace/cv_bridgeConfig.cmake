@@ -67,14 +67,14 @@ set(cv_bridge_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(cv_bridge_SOURCE_PREFIX /home/parallels/projects/catkin_ws/src/third_party/vision_opencv/cv_bridge)
-  set(cv_bridge_DEVEL_PREFIX /home/parallels/projects/catkin_ws/devel/.private/cv_bridge)
+  set(cv_bridge_SOURCE_PREFIX /home/parallels/temporary/CodingProjects2/catkin_ws/src/third_party/vision_opencv/cv_bridge)
+  set(cv_bridge_DEVEL_PREFIX /home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge)
   set(cv_bridge_INSTALL_PREFIX "")
   set(cv_bridge_PREFIX ${cv_bridge_DEVEL_PREFIX})
 else()
   set(cv_bridge_SOURCE_PREFIX "")
   set(cv_bridge_DEVEL_PREFIX "")
-  set(cv_bridge_INSTALL_PREFIX /home/parallels/projects/catkin_ws/install)
+  set(cv_bridge_INSTALL_PREFIX /home/parallels/temporary/CodingProjects2/catkin_ws/install)
   set(cv_bridge_PREFIX ${cv_bridge_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/parallels/projects/catkin_ws/install/lib;/home/parallels/projects/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/parallels/temporary/CodingProjects2/catkin_ws/install/lib;/home/parallels/temporary/CodingProjects2/catkin_ws/devel/lib;/home/parallels/projects/catkin_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
