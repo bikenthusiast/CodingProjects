@@ -1,1 +1,0 @@
-/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cob_people_object_detection_tensorflow/lib/pkgconfig/cob_people_object_detection_tensorflow.pc

@@ -1,1 +1,0 @@
-/home/parallels/temporary/CodingProjects2/catkin_ws/devel/.private/cv_bridge/lib/pkgconfig/cv_bridge.pc
