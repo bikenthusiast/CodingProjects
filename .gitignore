@@ -1,1 +1,4 @@
 catkin_ws/.catkin_tools
+catkin_ws/build
+catkin_ws/devel
+python/anaconda3
