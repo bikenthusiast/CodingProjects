@@ -6,7 +6,7 @@ import sklearn
 from sklearn import linear_model
 
 
-data = pd.read_csv("student-mat.csv", sep=";")
+data = pd.read_csv("DataInput/student-mat.csv", sep=";")
 # Since our data is seperated by semicolons we need to do sep=";"
 # Trim data
 data = data[["G1", "G2", "G3", "studytime", "failures", "absences"]]
