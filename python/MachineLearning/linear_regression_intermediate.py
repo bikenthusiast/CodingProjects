@@ -33,11 +33,11 @@ for _ in range(20):
 
     if acc > best:
         best = acc
-        with open("studentgrades.pickle", "wb") as f:
+        with open("../studentgrades.pickle", "wb") as f:
             pickle.dump(linear, f)
 
 # LOAD MODEL
-pickle_in = open("studentgrades.pickle", "rb")
+pickle_in = open("../studentgrades.pickle", "rb")
 linear = pickle.load(pickle_in)
 
 

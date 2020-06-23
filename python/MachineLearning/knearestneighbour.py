@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 from sklearn import linear_model, preprocessing
 
-data = pd.read_csv("DataInput/car.data")
+data = pd.read_csv("../DataInput/car.data")
 print(data.head())  # To check if our data is loaded correctly
 
 le = preprocessing.LabelEncoder()
