@@ -1,0 +1,69 @@
+Not searching for unused variables given on the command line.
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/parallels/Coding/CodingProjects/slam_catkin_ws/devel/.private/cv_bridge
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/parallels/Coding/CodingProjects/slam_catkin_ws/devel;/opt/ros/melodic
+[36m--[0m This workspace overlays: /home/parallels/Coding/CodingProjects/slam_catkin_ws/devel;/opt/ros/melodic
+[36m--[0m Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python2
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/bin/empy
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/parallels/Coding/CodingProjects/slam_catkin_ws/build/cv_bridge/test_results
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[36m--[0m Found PythonInterp: /usr/bin/python2 (found version "2.7.17")
+[36m--[0m Using Python nosetests: /usr/bin/nosetests-2.7
+[36m--[0m catkin 0.7.26
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython2.7.so (found version "2.7.17")
+[36m--[0m [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1094 ] _boost_TEST_VERSIONS = 1.65.1;1.65.0;1.65;1.64.0;1.64;1.63.0;1.63;1.62.0;1.62;1.61.0;1.61;1.60.0;1.60;1.59.0;1.59;1.58.0;1.58;1.57.0;1.57;1.56.0;1.56;1.55.0;1.55;1.54.0;1.54;1.53.0;1.53;1.52.0;1.52;1.51.0;1.51;1.50.0;1.50;1.49.0;1.49;1.48.0;1.48;1.47.0;1.47;1.46.1;1.46.0;1.46;1.45.0;1.45;1.44.0;1.44;1.43.0;1.43;1.42.0;1.42;1.41.0;1.41;1.40.0;1.40;1.39.0;1.39;1.38.0;1.38;1.37.0;1.37;1.36.1;1.36.0;1.36;1.35.1;1.35.0;1.35;1.34.1;1.34.0;1.34;1.33.1;1.33.0;1.33
+[36m--[0m [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1096 ] Boost_USE_MULTITHREADED = TRUE
+[36m--[0m [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1098 ] Boost_USE_STATIC_LIBS =
+[36m--[0m [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1100 ] Boost_USE_STATIC_RUNTIME =
+[36m--[0m [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1102 ] Boost_ADDITIONAL_VERSIONS =
+[36m--[0m [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1104 ] Boost_NO_SYSTEM_PATHS =
+[36m--[0m [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1172 ] Declared as CMake or Environmental Variables:
+[36m--[0m [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1174 ]   BOOST_ROOT =
+[36m--[0m [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1176 ]   BOOST_INCLUDEDIR =
+[36m--[0m [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1178 ]   BOOST_LIBRARYDIR =
+[36m--[0m [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1180 ] _boost_TEST_VERSIONS = 1.65.1;1.65.0;1.65;1.64.0;1.64;1.63.0;1.63;1.62.0;1.62;1.61.0;1.61;1.60.0;1.60;1.59.0;1.59;1.58.0;1.58;1.57.0;1.57;1.56.0;1.56;1.55.0;1.55;1.54.0;1.54;1.53.0;1.53;1.52.0;1.52;1.51.0;1.51;1.50.0;1.50;1.49.0;1.49;1.48.0;1.48;1.47.0;1.47;1.46.1;1.46.0;1.46;1.45.0;1.45;1.44.0;1.44;1.43.0;1.43;1.42.0;1.42;1.41.0;1.41;1.40.0;1.40;1.39.0;1.39;1.38.0;1.38;1.37.0;1.37;1.36.1;1.36.0;1.36;1.35.1;1.35.0;1.35;1.34.1;1.34.0;1.34;1.33.1;1.33.0;1.33
+[36m--[0m [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1279 ] location of version.hpp: /usr/include/boost/version.hpp
+[36m--[0m [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1303 ] version.hpp reveals boost 1.65.1
+[36m--[0m [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1389 ] guessed _boost_COMPILER = -gcc7
+[36m--[0m [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1399 ] _boost_MULTITHREADED = -mt
+[36m--[0m [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1443 ] _boost_RELEASE_ABI_TAG = -
+[36m--[0m [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1445 ] _boost_DEBUG_ABI_TAG = -d
+[36m--[0m [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1507 ] _boost_LIBRARY_SEARCH_DIRS_RELEASE = /usr/include/lib;/usr/include/../lib;/usr/include/stage/lib;PATHS;C:/boost/lib;C:/boost;/sw/local/lib_boost_LIBRARY_SEARCH_DIRS_DEBUG   = /usr/include/lib;/usr/include/../lib;/usr/include/stage/lib;PATHS;C:/boost/lib;C:/boost;/sw/local/lib
+[33m[1mCMake Warning[0m at /usr/share/cmake-3.10/Modules/FindBoost.cmake:1626 (message):
+  No header defined for python37; skipping header check
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:11 (find_package)
+
+
+[36m--[0m [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1657 ] Searching for PYTHON37_LIBRARY_RELEASE: boost_python37-gcc7-mt-1_65_1;boost_python37-gcc7-mt;boost_python37-mt-1_65_1;boost_python37-mt;boost_python37
+[36m--[0m [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1708 ] Searching for PYTHON37_LIBRARY_DEBUG: boost_python37-gcc7-mt-d-1_65_1;boost_python37-gcc7-mt-d;boost_python37-mt-d-1_65_1;boost_python37-mt-d;boost_python37-mt;boost_python37
+[36m--[0m [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1783 ] Boost_FOUND = 1
+[31m[1mCMake Error[0m at /usr/share/cmake-3.10/Modules/FindBoost.cmake:1947 (message):
+  Unable to find the requested Boost libraries.
+
+  Boost version: 1.65.1
+
+  Boost include path: /usr/include
+
+  Could not find the following Boost libraries:
+
+          boost_python37
+
+  No Boost libraries were found.  You may need to set BOOST_LIBRARYDIR to the
+  directory containing Boost libraries or BOOST_ROOT to the location of
+  Boost.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:11 (find_package)
+
+
+[36m--[0m Did not find OpenCV 4, trying OpenCV 3
+[36m--[0m Found OpenCV: /usr/local (found suitable version "3.4.0", minimum required is "3") found components:  opencv_core opencv_imgproc opencv_imgcodecs
+[36m--[0m Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython2.7.so (found suitable version "2.7.17", minimum required is "2.7")
+[36m--[0m Configuring incomplete, errors occurred!
+See also "/home/parallels/Coding/CodingProjects/slam_catkin_ws/build/cv_bridge/CMakeFiles/CMakeOutput.log".
+See also "/home/parallels/Coding/CodingProjects/slam_catkin_ws/build/cv_bridge/CMakeFiles/CMakeError.log".

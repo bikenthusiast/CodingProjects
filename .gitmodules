@@ -1,0 +1,3 @@
+[submodule "catkin_ws/third_party/openvslam"]
+	path = catkin_ws/third_party/openvslam
+	url = https://github.com/xdspacelab/openvslam
