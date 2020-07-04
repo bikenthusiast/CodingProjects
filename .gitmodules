@@ -1,3 +1,18 @@
 [submodule "catkin_ws/third_party/openvslam"]
 	path = catkin_ws/third_party/openvslam
 	url = https://github.com/xdspacelab/openvslam
+[submodule "catkin_ws/third_party/DBoW2"]
+	path = catkin_ws/third_party/DBoW2
+	url = https://github.com/shinsumicco/DBoW2.git
+[submodule "catkin_ws/g2o"]
+	path = catkin_ws/g2o
+	url = https://github.com/RainerKuemmerle/g2o.git
+[submodule "catkin_ws/third_party/socket.io-client-cpp"]
+	path = catkin_ws/third_party/socket.io-client-cpp
+	url = https://github.com/shinsumicco/socket.io-client-cpp.git
+[submodule "catkin_ws/third_party/opencv_build/opencv"]
+	path = catkin_ws/third_party/opencv_build/opencv
+	url = https://github.com/opencv/opencv.git
+[submodule "catkin_ws/third_party/opencv_build/opencv_contrib"]
+	path = catkin_ws/third_party/opencv_build/opencv_contrib
+	url = https://github.com/opencv/opencv_contrib.git
