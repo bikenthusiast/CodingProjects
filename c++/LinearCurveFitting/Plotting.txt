@@ -1,0 +1,31 @@
+#!/usr/bin/gnuplot
+reset
+set title "Silicon Carbide"
+set grid
+a_0=203.3319
+a_1=-0.0126
+set terminal pdfcairo font "Arial,12"
+set output 'siliconCarbide.pdf'
+
+set border linewidth 1.5
+# Set line and point styles 
+set style line 1 linecolor rgb '#0060ad' linetype 1 linewidth 2
+set style line 2 linecolor rgb '#dd181f' linetype 1 linewidth 2 pointtype 7
+set style line 3 linecolor rgb '#dd181f' linetype 0 linewidth 0 pointtype 2
+
+# Set x/y-label
+set xlabel 'T in Degree Celcius'
+set ylabel 'Bulk Modulus in GPa'
+set tics scale 1
+
+# Calculate values for line
+f(x) = a_1* x + a_0
+
+# Set range
+set xrange [0:1500]
+set yrange [180:205]
+
+plot 'values.txt' using 1:3 title 'Data Points' with points pointtype 2 lt 1, \
+     f(x) title 'f(x)=203.3319 - 0.0126*x' with lines ls 1
+reset
+set out
