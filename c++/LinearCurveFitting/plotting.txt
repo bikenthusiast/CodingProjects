@@ -2,8 +2,10 @@
 reset
 set title "Silicon Carbide"
 set grid
-a_0=203.3319
-a_1=-0.0126
+stats 'slopeAndInterception.txt' every 1 using 1 nooutput
+a_0=STATS_min
+stats 'slopeAndInterception.txt' every 1 using 2 nooutput
+a_1=STATS_max
 set terminal pdfcairo font "Arial,12"
 set output 'siliconCarbide.pdf'
 
@@ -26,6 +28,6 @@ set xrange [0:1500]
 set yrange [180:205]
 
 plot 'values.txt' using 1:3 title 'Data Points' with points pointtype 2 lt 1, \
-     f(x) title 'f(x)=203.3319 - 0.0126*x' with lines ls 1
+     f(x) title 'f(x)=a_0 + a_1*x' with lines ls 1
 reset
 set out
