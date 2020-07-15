@@ -1,4 +1,4 @@
-//Least Squares Curve-Fitting
+//Least Squares Curve Fitting
 //Line: zi = a0 + a1*x, sum square error, coefficient of determination
 //https://web.cecs.pdx.edu/~gerry/nmm/course/slides/ch09Slides.pdf
 
@@ -37,7 +37,7 @@ double arraySum(double a[],int sizeArray)
 
 int main(){
 
-//Calculate necessary terms of slope and interception 
+//Calculate necessary terms for slope and interception calculation
 double xsum=0,x2sum=0,ysum=0,xysum=0;
 for (i=0;i<sizeArray;i++)
 {
@@ -51,14 +51,6 @@ a_1=(sizeArray*xysum-xsum*ysum)/(sizeArray*x2sum-xsum*xsum);
 //Calculate intercept              
 a_0=(x2sum*ysum-xsum*xysum)/(x2sum*sizeArray-xsum*xsum);
 
-// Create and open a text file
-ofstream slopeAndIntercept("slopeAndInterception.txt");
-// Write to file
-slopeAndIntercept << "a_o a_1\n";
-slopeAndIntercept <<a_0<<" "<<a_1<<endl;
-// Close file
-slopeAndIntercept.close();
-
 
 // Calculate z-values of line
 for (i=0;i<sizeArray;i++)
@@ -70,6 +62,7 @@ cout <<"\nIntercept: a_0= "<< fixed << a_0;
 cout <<"\nSlope: a_1= "<< fixed << a_1;
 
 //Calculate Coefficient of Determination
+
 sum=arraySum(y,sizeArray);
 double y_mean=sum/sizeArray;
 
@@ -91,12 +84,21 @@ for (i=0;i<sizeArray;i++)
 
 squaresum=arraySum(err,sizeArray);
 
+// Save values in text files
+
+ofstream parameter("parameter.txt");
+// Write to file
+parameter << "a_o a_1 coeffDet\n";
+parameter <<a_0<<" "<<a_1<<" "<<coeffDet<<endl;
+// Close file
+parameter.close();
+
 //Output to terminal
 cout<<"\nSum of Squared Errors: "<< fixed <<squaresum << endl;
 cout <<"Coefficient of Determination: "<< fixed << coeffDet<<"\n";
 
 // Create and open a text file
-ofstream Values("OutputValues.txt");
+ofstream Values("outputValues.txt");
 // Write to file
 Values << "x y z squErr: \n";
 for (i=0;i<sizeArray;i++)
