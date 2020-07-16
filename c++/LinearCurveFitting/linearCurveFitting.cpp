@@ -24,8 +24,10 @@ double err[]={},squaredErr[]={};
 
 //Calculate squared difference
 double squareDif(double* y,double* x){
-    for (i=0;i<sizeArray;i++)
+    for (i=0;i<sizeArray;i++){
         err[i]=pow(x[i]-y[i],2);
+    }
+        
 }
 
 //Calculate sum of array
@@ -53,8 +55,10 @@ a_0=(x2sum*ysum-xsum*xysum)/(x2sum*sizeArray-xsum*xsum);
 
 
 // Calculate z-values of line
-for (i=0;i<sizeArray;i++)
+for (i=0;i<sizeArray;i++){
     z[i]=a_1*x[i]+a_0;
+}
+    
 
 //Set precision of output data
 cout.precision(4);
@@ -68,8 +72,9 @@ double y_mean=sum/sizeArray;
 
 //Transform single value to array
 double y_mean_arr[sizeArray]={ };
-for (i=0;i<=sizeArray;i++)
+for (i=0;i<=sizeArray;i++){
     y_mean_arr[i]=y_mean;
+}
 
 squareDif(y,y_mean_arr);
 double meanErr=(arraySum(err,sizeArray));
@@ -80,7 +85,6 @@ double coeffDet=1.0-(fitErr/meanErr);
 
 // Calculate SquareError
 squareDif(y,z);
-for (i=0;i<sizeArray;i++)
 
 squaresum=arraySum(err,sizeArray);
 
@@ -101,8 +105,9 @@ cout <<"Coefficient of Determination: "<< fixed << coeffDet<<"\n";
 ofstream Values("outputValues.txt");
 // Write to file
 Values << "x y z squErr: \n";
-for (i=0;i<sizeArray;i++)
+for (i=0;i<sizeArray;i++){
     Values <<x[i]<<" "<<y[i]<<" "<<z[i]<<" "<< err[i] << endl;
+}
 // Close file
 Values.close();
 
