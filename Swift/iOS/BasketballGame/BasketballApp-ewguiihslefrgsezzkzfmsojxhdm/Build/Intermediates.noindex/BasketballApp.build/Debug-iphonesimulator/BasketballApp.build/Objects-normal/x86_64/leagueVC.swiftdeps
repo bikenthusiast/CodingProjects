@@ -1,0 +1,372 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "leagueVC"
+provides-nominal:
+- "13BasketballApp8leagueVCC"
+provides-member:
+- ["13BasketballApp8leagueVCC", ""]
+provides-dynamic-lookup:
+- "AppPlayer"
+- "LeagueSelected"
+- "nxtButton"
+- "onCoedTapped"
+- "onMensTapped"
+- "onWomensTapped"
+- "prepare"
+- "unwindFromSkillVC1"
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "String"
+- !private "StringLiteralType"
+- "UIButton"
+- "UIStoryboardSegue"
+- "UIViewController"
+- "leagueVC"
+- "player"
+- !private "skillVC"
+depends-member:
+- !private ["So15CALayerDelegateP", "isEnabled"]
+- !private ["So15CALayerDelegateP", "showsTouchWhenHighlighted"]
+- !private ["s7CVarArgP", "AppPlayer"]
+- !private ["s7CVarArgP", "LeagueSelected"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "destination"]
+- !private ["s7CVarArgP", "isEnabled"]
+- !private ["s7CVarArgP", "nxtButton"]
+- !private ["s7CVarArgP", "player"]
+- !private ["s7CVarArgP", "showsTouchWhenHighlighted"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "AppPlayer"]
+- !private ["s28CustomDebugStringConvertibleP", "LeagueSelected"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "desiredLeague"]
+- !private ["s28CustomDebugStringConvertibleP", "destination"]
+- !private ["s28CustomDebugStringConvertibleP", "isEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "nxtButton"]
+- !private ["s28CustomDebugStringConvertibleP", "player"]
+- !private ["s28CustomDebugStringConvertibleP", "showsTouchWhenHighlighted"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "desiredLeague"]
+- !private ["s17CustomReflectableP", "isEnabled"]
+- !private ["s17CustomReflectableP", "showsTouchWhenHighlighted"]
+- !private ["s23CustomStringConvertibleP", "AppPlayer"]
+- !private ["s23CustomStringConvertibleP", "LeagueSelected"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "destination"]
+- !private ["s23CustomStringConvertibleP", "isEnabled"]
+- !private ["s23CustomStringConvertibleP", "nxtButton"]
+- !private ["s23CustomStringConvertibleP", "player"]
+- !private ["s23CustomStringConvertibleP", "showsTouchWhenHighlighted"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "desiredLeague"]
+- !private ["Se", "isEnabled"]
+- !private ["Se", "showsTouchWhenHighlighted"]
+- !private ["SE", "desiredLeague"]
+- !private ["SE", "isEnabled"]
+- !private ["SE", "showsTouchWhenHighlighted"]
+- !private ["SQ", "AppPlayer"]
+- !private ["SQ", "LeagueSelected"]
+- ["SQ", ""]
+- !private ["SQ", "desiredLeague"]
+- !private ["SQ", "destination"]
+- !private ["SQ", "isEnabled"]
+- !private ["SQ", "nxtButton"]
+- !private ["SQ", "player"]
+- !private ["SQ", "showsTouchWhenHighlighted"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s23ExpressibleByNilLiteralP", "desiredLeague"]
+- !private ["s23ExpressibleByNilLiteralP", "isEnabled"]
+- !private ["s23ExpressibleByNilLiteralP", "showsTouchWhenHighlighted"]
+- !private ["SH", "AppPlayer"]
+- !private ["SH", "LeagueSelected"]
+- ["SH", ""]
+- !private ["SH", "desiredLeague"]
+- !private ["SH", "destination"]
+- !private ["SH", "isEnabled"]
+- !private ["SH", "nxtButton"]
+- !private ["SH", "player"]
+- !private ["SH", "showsTouchWhenHighlighted"]
+- !private ["SH", "viewDidLoad"]
+- !private ["So8NSCodingP", "AppPlayer"]
+- !private ["So8NSCodingP", "LeagueSelected"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "isEnabled"]
+- !private ["So8NSCodingP", "nxtButton"]
+- !private ["So8NSCodingP", "player"]
+- !private ["So8NSCodingP", "showsTouchWhenHighlighted"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "AppPlayer"]
+- !private ["So26NSExtensionRequestHandlingP", "LeagueSelected"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "nxtButton"]
+- !private ["So26NSExtensionRequestHandlingP", "player"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "AppPlayer"]
+- ["So8NSObjectC", "LeagueSelected"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UIStoryboardSegue"]
+- !private ["So8NSObjectC", "destination"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isEnabled"]
+- ["So8NSObjectC", "nxtButton"]
+- ["So8NSObjectC", "onCoedTapped"]
+- ["So8NSObjectC", "onMensTapped"]
+- ["So8NSObjectC", "onWomensTapped"]
+- ["So8NSObjectC", "player"]
+- ["So8NSObjectC", "prepare"]
+- !private ["So8NSObjectC", "showsTouchWhenHighlighted"]
+- !private ["So8NSObjectC", "skillVC"]
+- ["So8NSObjectC", "unwindFromSkillVC1"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "AppPlayer"]
+- !private ["So8NSObjectP", "LeagueSelected"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "destination"]
+- !private ["So8NSObjectP", "isEnabled"]
+- !private ["So8NSObjectP", "nxtButton"]
+- !private ["So8NSObjectP", "player"]
+- !private ["So8NSObjectP", "showsTouchWhenHighlighted"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["Sq", "desiredLeague"]
+- !private ["Sq", "isEnabled"]
+- !private ["Sq", "showsTouchWhenHighlighted"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "isEnabled"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "showsTouchWhenHighlighted"]
+- !private ["So29UIAccessibilityIdentificationP", "isEnabled"]
+- !private ["So29UIAccessibilityIdentificationP", "showsTouchWhenHighlighted"]
+- !private ["So12UIAppearanceP", "isEnabled"]
+- !private ["So12UIAppearanceP", "showsTouchWhenHighlighted"]
+- !private ["So21UIAppearanceContainerP", "AppPlayer"]
+- !private ["So21UIAppearanceContainerP", "LeagueSelected"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "isEnabled"]
+- !private ["So21UIAppearanceContainerP", "nxtButton"]
+- !private ["So21UIAppearanceContainerP", "player"]
+- !private ["So21UIAppearanceContainerP", "showsTouchWhenHighlighted"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So8UIButtonC", "isEnabled"]
+- !private ["So8UIButtonC", "showsTouchWhenHighlighted"]
+- !private ["So18UIContentContainerP", "AppPlayer"]
+- !private ["So18UIContentContainerP", "LeagueSelected"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "nxtButton"]
+- !private ["So18UIContentContainerP", "player"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So9UIControlC", "isEnabled"]
+- !private ["So9UIControlC", "showsTouchWhenHighlighted"]
+- !private ["So17UICoordinateSpaceP", "isEnabled"]
+- !private ["So17UICoordinateSpaceP", "showsTouchWhenHighlighted"]
+- !private ["So13UIDynamicItemP", "isEnabled"]
+- !private ["So13UIDynamicItemP", "showsTouchWhenHighlighted"]
+- !private ["So18UIFocusEnvironmentP", "AppPlayer"]
+- !private ["So18UIFocusEnvironmentP", "LeagueSelected"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "isEnabled"]
+- !private ["So18UIFocusEnvironmentP", "nxtButton"]
+- !private ["So18UIFocusEnvironmentP", "player"]
+- !private ["So18UIFocusEnvironmentP", "showsTouchWhenHighlighted"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "isEnabled"]
+- !private ["So11UIFocusItemP", "showsTouchWhenHighlighted"]
+- !private ["So20UIFocusItemContainerP", "isEnabled"]
+- !private ["So20UIFocusItemContainerP", "showsTouchWhenHighlighted"]
+- !private ["So24UILargeContentViewerItemP", "isEnabled"]
+- !private ["So24UILargeContentViewerItemP", "showsTouchWhenHighlighted"]
+- !private ["So30UIPasteConfigurationSupportingP", "AppPlayer"]
+- !private ["So30UIPasteConfigurationSupportingP", "LeagueSelected"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "isEnabled"]
+- !private ["So30UIPasteConfigurationSupportingP", "nxtButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "player"]
+- !private ["So30UIPasteConfigurationSupportingP", "showsTouchWhenHighlighted"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "AppPlayer"]
+- ["So11UIResponderC", "LeagueSelected"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UIStoryboardSegue"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isEnabled"]
+- ["So11UIResponderC", "nxtButton"]
+- ["So11UIResponderC", "onCoedTapped"]
+- ["So11UIResponderC", "onMensTapped"]
+- ["So11UIResponderC", "onWomensTapped"]
+- ["So11UIResponderC", "player"]
+- ["So11UIResponderC", "prepare"]
+- !private ["So11UIResponderC", "showsTouchWhenHighlighted"]
+- !private ["So11UIResponderC", "skillVC"]
+- ["So11UIResponderC", "unwindFromSkillVC1"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "AppPlayer"]
+- !private ["So30UIResponderStandardEditActionsP", "LeagueSelected"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "isEnabled"]
+- !private ["So30UIResponderStandardEditActionsP", "nxtButton"]
+- !private ["So30UIResponderStandardEditActionsP", "player"]
+- !private ["So30UIResponderStandardEditActionsP", "showsTouchWhenHighlighted"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "isEnabled"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "showsTouchWhenHighlighted"]
+- !private ["So16UIStateRestoringP", "AppPlayer"]
+- !private ["So16UIStateRestoringP", "LeagueSelected"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "nxtButton"]
+- !private ["So16UIStateRestoringP", "player"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So17UIStoryboardSegueC", "destination"]
+- !private ["So18UITraitEnvironmentP", "AppPlayer"]
+- !private ["So18UITraitEnvironmentP", "LeagueSelected"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "isEnabled"]
+- !private ["So18UITraitEnvironmentP", "nxtButton"]
+- !private ["So18UITraitEnvironmentP", "player"]
+- !private ["So18UITraitEnvironmentP", "showsTouchWhenHighlighted"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "AppPlayer"]
+- !private ["So23UIUserActivityRestoringP", "LeagueSelected"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "isEnabled"]
+- !private ["So23UIUserActivityRestoringP", "nxtButton"]
+- !private ["So23UIUserActivityRestoringP", "player"]
+- !private ["So23UIUserActivityRestoringP", "showsTouchWhenHighlighted"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "isEnabled"]
+- !private ["So6UIViewC", "showsTouchWhenHighlighted"]
+- ["So16UIViewControllerC", "AppPlayer"]
+- ["So16UIViewControllerC", "LeagueSelected"]
+- ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UIButton"]
+- ["So16UIViewControllerC", "UIStoryboardSegue"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "nxtButton"]
+- ["So16UIViewControllerC", "onCoedTapped"]
+- ["So16UIViewControllerC", "onMensTapped"]
+- ["So16UIViewControllerC", "onWomensTapped"]
+- ["So16UIViewControllerC", "player"]
+- ["So16UIViewControllerC", "prepare"]
+- !private ["So16UIViewControllerC", "skillVC"]
+- ["So16UIViewControllerC", "unwindFromSkillVC1"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AppPlayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LeagueSelected"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "destination"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nxtButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "player"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showsTouchWhenHighlighted"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AppPlayer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LeagueSelected"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "destination"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isEnabled"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "nxtButton"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "player"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "showsTouchWhenHighlighted"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "desiredLeague"]
+- !private ["s21_ObjectiveCBridgeableP", "isEnabled"]
+- !private ["s21_ObjectiveCBridgeableP", "showsTouchWhenHighlighted"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isEnabled"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "showsTouchWhenHighlighted"]
+- ["13BasketballApp8leagueVCC", "AppPlayer"]
+- ["13BasketballApp8leagueVCC", "LeagueSelected"]
+- ["13BasketballApp8leagueVCC", "String"]
+- ["13BasketballApp8leagueVCC", "UIButton"]
+- ["13BasketballApp8leagueVCC", "UIStoryboardSegue"]
+- ["13BasketballApp8leagueVCC", "deinit"]
+- ["13BasketballApp8leagueVCC", "init"]
+- ["13BasketballApp8leagueVCC", "nxtButton"]
+- ["13BasketballApp8leagueVCC", "onCoedTapped"]
+- ["13BasketballApp8leagueVCC", "onMensTapped"]
+- ["13BasketballApp8leagueVCC", "onWomensTapped"]
+- ["13BasketballApp8leagueVCC", "player"]
+- ["13BasketballApp8leagueVCC", "prepare"]
+- !private ["13BasketballApp8leagueVCC", "skillVC"]
+- ["13BasketballApp8leagueVCC", "unwindFromSkillVC1"]
+- ["13BasketballApp8leagueVCC", "viewDidLoad"]
+- !private ["13BasketballApp6playerV", "desiredLeague"]
+- !private ["13BasketballApp6playerV", "init"]
+- !private ["13BasketballApp7skillVCC", "AppPlayer"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- "So18UIContentContainerP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So17UIStoryboardSegueC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+- "13BasketballApp8leagueVCC"
+- !private "13BasketballApp6playerV"
+- !private "13BasketballApp7skillVCC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ef98d873ee716ce2fe0c77e43ecea231"
