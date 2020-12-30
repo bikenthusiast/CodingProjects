@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "153922315b014f4cd7c00fd8997dc447"
+build_time: [1594988516, 874689000]
+inputs:
+  "/Users/tobiaskapfhammer/Documents/GitHub/CodingProjects/Swift/iOS/BasketballApp/BasketballApp/Controller/welcomeVC.swift": [1594928621, 685163633]
+  "/Users/tobiaskapfhammer/Documents/GitHub/CodingProjects/Swift/iOS/BasketballApp/BasketballApp/AppDelegate.swift": [1594147795, 380108855]
+  "/Users/tobiaskapfhammer/Documents/GitHub/CodingProjects/Swift/iOS/BasketballApp/BasketballApp/Models/player.swift": [1594987840, 19034742]
+  "/Users/tobiaskapfhammer/Documents/GitHub/CodingProjects/Swift/iOS/BasketballApp/BasketballApp/Controller/leagueVC.swift": [1594988175, 111541733]
+  "/Users/tobiaskapfhammer/Documents/GitHub/CodingProjects/Swift/iOS/BasketballApp/BasketballApp/Controller/skillVC.swift": [1594988130, 241876808]
+  "/Users/tobiaskapfhammer/Documents/GitHub/CodingProjects/Swift/iOS/BasketballApp/BasketballApp/SceneDelegate.swift": [1594147325, 333818117]

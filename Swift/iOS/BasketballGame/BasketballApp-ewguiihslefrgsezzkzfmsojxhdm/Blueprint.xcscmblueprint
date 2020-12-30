@@ -1,0 +1,22 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F2557B0F7606BB8432F75612DF2E4A12C76A9AD6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E0288465-AE68-4ACE-9A7E-0A13766BA5D2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F2557B0F7606BB8432F75612DF2E4A12C76A9AD6" : "..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BasketballApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BasketballApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bikenthusiast\/CodingProjects.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F2557B0F7606BB8432F75612DF2E4A12C76A9AD6"
+    }
+  ]
+}
