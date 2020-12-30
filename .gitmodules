@@ -16,3 +16,6 @@
 [submodule "catkin_ws/third_party/opencv_build/opencv_contrib"]
 	path = catkin_ws/third_party/opencv_build/opencv_contrib
 	url = https://github.com/opencv/opencv_contrib.git
+[submodule "python/third-party/CameraRadarFusionNet"]
+	path = python/third-party/CameraRadarFusionNet
+	url = https://github.com/TUMFTM/CameraRadarFusionNet.git
