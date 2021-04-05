@@ -18,7 +18,7 @@ double x[]={20,500,1000,1200,1400,1500},y[]={203,197,191,188,186,184};
 const int arrSize=sizeof(x)/sizeof(x[0]);
 int squaredDif[arrSize];
 double z[arrSize];
-double err[]={},squaredErr[]={},erryz[]={};
+double err[arrSize]={},squaredErr[arrSize]={},erryz[arrSize]={};
 double squaresum,a_0,a_1;
 int initial_sum=0,i,sum;
 
