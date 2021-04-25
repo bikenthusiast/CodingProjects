@@ -19,3 +19,6 @@
 [submodule "python/third-party/CameraRadarFusionNet"]
 	path = python/third-party/CameraRadarFusionNet
 	url = https://github.com/TUMFTM/CameraRadarFusionNet.git
+[submodule "googleCloud/training-data-analyst"]
+	path = googleCloud/training-data-analyst
+	url = https://github.com/GoogleCloudPlatform/training-data-analyst
