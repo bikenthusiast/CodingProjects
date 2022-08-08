@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/googleCloud/training-data-analyst" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/python/third-party/CameraRadarFusionNet" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/python/third-party/CameraRadarFusionNet/crfnet/nuscenes-devkit" vcs="Git" />
   </component>
 </project>
