@@ -5,9 +5,10 @@ using namespace std;
 
 
 //Does not give back a value
-void sayHi(string name)
+string sayHi(string name)
 {
-    cout <<"Hello "<< name;
+    cout <<"Hello"<< name;
+    return name;
 }
 
 int main()
@@ -15,12 +16,6 @@ int main()
     int luckyNums[]={4,8,15,16,23,42};
     sayHi("Tobias");
     return 0;
-}
-
-int maxArray()
-{
-
-
 }
 
 
