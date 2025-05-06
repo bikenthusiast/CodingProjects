@@ -52,3 +52,6 @@ qtcreator-*
 CATKIN_IGNORE
 
 anaconda3/
+
+# Stocks
+python/Stocks/StockInputData.csv

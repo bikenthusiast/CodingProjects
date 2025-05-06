@@ -29,8 +29,6 @@ for url in urls:
 
         print (url, response)
         soup = BeautifulSoup(response.content, "html.parser")
-
-        #price = soup.find_all('div', class_="nobr marginlessHeadline")[0].span.span.span
         price = soup.find('div', class_="nobr marginlessHeadline").get_text(separator="",strip=True)
         print(price)
         if soup.find('div', class_="name nameMittel"):

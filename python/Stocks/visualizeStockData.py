@@ -1,14 +1,21 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+from CleanPrice import clean_price
+
 # CSV-Datei einlesen
 df = pd.read_csv("StockInputData.csv", parse_dates=["Date"])
 
 # Spalte "Change" bereinigen und umwandeln
-df["Change"] = df["Change"].str.replace('%', '').str.replace(',', '.').astype(float)
+df["Change"] = df["Change"].str.replace('%', '', regex=False).str.replace(',', '.', regex=False).astype(float)
+
 
 # Daten sortieren
 df.sort_values(by="Date", inplace=True)
+
+# Daten vorbereiten- Preise umformatieren
+df["Price"] = df["Price"].apply(clean_price)
+df["Price"] = pd.to_numeric(df["Price"], errors="coerce")
 
 # Liste der Unternehmen
 companies = df["Company"].unique()
@@ -34,7 +41,7 @@ for i, company in enumerate(companies):
     # Veränderung (rechte Spalte)
     ax_change = axes[i][1]
     ax_change.bar(company_data["Date"], company_data["Change"], color="orange")
-    ax_change.axhline(0, color="gray", linestyle="--", linewidth=1)
+    ax_change.axhline(0, color="gray", linestyle="dashed", linewidth=1)
     ax_change.set_title(f"{company} – Veränderung (%)")
     ax_change.set_ylabel("Veränderung (%)")
     ax_change.grid(True)
@@ -46,7 +53,7 @@ plt.xlabel("Datum")
 plt.tight_layout()
 
 # Bild speichern
-plt.savefig("alle_aktienverläufe.png", dpi=300)
+plt.savefig("alle_aktienverläufe.pdf", dpi=300)
 
 # Auch anzeigen
 plt.show()
